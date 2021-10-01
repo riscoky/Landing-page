@@ -2,7 +2,8 @@ body{
     background-color:whitesmoke;
 }
 #container{
- height: 500px;   
+ height: 500px;
+ display: flex;   
 }
 #box-1{
     width: 50%;
@@ -11,9 +12,19 @@ body{
 #box-2{
     width: 50%;
     height: 50%;
-
 }
-
+#box{
+    height: 500px;
+    display: flex;
+}
+#box3{
+    width: 50%;
+    height: 50%;
+}
+#box4{
+    width: 50%;
+    height: 50%;
+}
     ul {
         list-style-type: none;
         margin: 0;
@@ -33,10 +44,26 @@ body{
         padding: 14px 16px;
         text-decoration: none;
       }
-      
-      /* Change the link color to #111 (black) on hover */
-      li a:hover {
-        background-color: #111;
-      
 
+      li a:hover {
+        background-color: cyan
+      }
+        .red-text{
+            color: black;
+        }
+      
+button{
+    background-color: yellow;
+}
+#download{
+    background-color: black;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+}
+.profile-name{
+    display: flex;
 }
