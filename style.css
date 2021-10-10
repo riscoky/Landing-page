@@ -71,3 +71,7 @@ button{
 .nav-right{
     float: right;
 }
+#main{
+    margin: 30px 8px;
+    border-radius: 5px;
+}
